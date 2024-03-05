@@ -5,7 +5,7 @@ To make the implementation easier (bypass version conflicts and etc), we borrowe
 and [Tao Chen's repo](https://github.com/taochenshh/easyrl) 
 
 ## Installation ##
-After creating a python virtual environment with python 3.8, run `python install .` inside the cloned folder [Tao Chen's repo](https://github.com/taochenshh/easyrl) Note that it might generate errors `ERROR: Failed building wheel for gputil`, that's okay for us.
+After creating a python virtual environment with python 3.8, run `python setup.py install` inside the cloned folder [Tao Chen's repo](https://github.com/taochenshh/easyrl) Note that it might generate errors `ERROR: Failed building wheel for gputil`, that's okay for us.
 Then you can work through the example in [bc_trainer](https://github.com/lucas-yyy000/mpc_imitation_learning/blob/main/bc_trainer.ipynb) to get an idea of the workflow.
 
 
