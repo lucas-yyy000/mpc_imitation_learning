@@ -5,8 +5,12 @@ To make the implementation easier (bypass version conflicts and etc), we borrowe
 and [Tao Chen's repo](https://github.com/taochenshh/easyrl) 
 
 ## Installation ##
-After creating a python virtual environment, run `python setup.py install` inside the cloned folder [Tao Chen's repo](https://github.com/taochenshh/easyrl) Note that it might generate errors `ERROR: Failed building wheel for gputil`, that's okay for us.
-Then you can work through the example in [bc_trainer](https://github.com/lucas-yyy000/mpc_imitation_learning/blob/main/bc_trainer.ipynb) to get an idea of the workflow.
+1. Create a python virtual environment (I used python 3.10). The following steps are all done inside the venv.
+2. Clone [Tao Chen's repo](https://github.com/taochenshh/easyrl) and run `python setup.py install` inside that repo.
+3. Install pytorch, scipy, pwlf via `pip install`.
+4. Then you can work through the example in [bc_trainer](https://github.com/lucas-yyy000/mpc_imitation_learning/blob/main/bc_trainer.ipynb) to get an idea of the workflow.
+
+
 
 
 The file [double_integrator](https://github.com/lucas-yyy000/mpc_imitation_learning/tree/main/double_integrator) includes the expert mpc, and some sample data were collected and stored in [data_multimodal](https://github.com/lucas-yyy000/mpc_imitation_learning/tree/main/double_integrator/data_multimodal).
