@@ -2,7 +2,8 @@
 This repo contains an implementation of using imitation learning to copy the behavior of an mpc. \
 To make the implementation easier (bypass version conflicts and etc), we borrowed several utility functions from:\
 [Stable Baseline3](https://github.com/DLR-RM/stable-baselines3)
-and [Tao Chen's repo](https://github.com/taochenshh/easyrl) 
+and [Tao Chen's repo](https://github.com/taochenshh/easyrl) \
+The rl finetuning code is from: [CleanRL](https://github.com/vwxyzjn/cleanrl/tree/master/cleanrl).
 
 ## Installation ##
 1. Create a python virtual environment (I used python 3.10). The following steps are all done inside the venv.
